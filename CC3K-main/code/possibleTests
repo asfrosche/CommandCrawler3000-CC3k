@@ -1,0 +1,55 @@
+RACE -
+Shade → win with 1.5 * score !!!
+Drow  → potions magnified * 1.5 !!! 
+Vampire  → +5 HP for successful attack (halfling/dwarf) !!!
+Troll → 5HP per tur !!!
+Goblin → steals 5 gold per killed enemy(two cases) !!!
+
+ENEMY - 
+Human → Drop 2 normalPIles on death
+Vampire → Lose 5hp against dwarf !!!
+Elf → Dual attack (Drow - single hit) !!!
+Orc → 50% more damage to Goblin !!!
+Merchant Hostility (before and after) !!!
+Halfling → halving hit rate of PC !!!
+
+Getting gold after u kill enemy (except human) !!!
+
+Dragon → long range attack (guarding hoard) !!!
+Dragon hoard not accessible (and accessible after death) !!!
+
+GOLD
+Walking over gold and acquiring it. !!!
+Enemy dropping either normalPile or smallPile !!!
+Potion !!!
+using potions ( effects return new floor ) !!!
+HP retention !!!
+
+
+every command line ability -
+Commands:
+
+        no, so, ea, we, ne, se, nw, sw  :   move in direction
+        u [dir]                         :   use a potion
+        a [dir]                         :   attack enemy in direction
+        r                               :   restart
+        f                               :   freeze enemy movement
+        q                               :   quit
+
+Action messages for all cases
+          PC/
+          NPC/
+          Dragon attack miss
+          Potions
+          New Floor
+
+WIN
+LOSE
+
+Error messages:
+          invalid move
+          walk on guarded dragon hoard
+          attacking non enemy
+          using non potion
+          selecting wrong race
+          giving bad command 
